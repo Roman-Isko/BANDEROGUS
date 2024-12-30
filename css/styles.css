@@ -24,10 +24,10 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 1170px;
+    position: relative;
 }
 
 .main-page-hello-text {
-    font-family: "Montserrat", sans-serif;
     font-weight: 600;
     font-size: 16px;
     line-height: 150%;
@@ -37,11 +37,66 @@ body {
 }
 
 .main-page-title {
-    font-family: "Montserrat", sans-serif;
     font-weight: 600;
     font-size: 64px;
     line-height: 112%;
     color: #1b1d1f;
     margin-top: 0;
     margin-bottom: 24px;
+}
+
+.main-page-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1b1d1f;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+.main-page-btn {
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    background: #ff6b0a;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.goit-logo {
+    position: absolute;
+    top: 32px;
+    left: 0;
+}
+
+.facts-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 150%;
+    color: #1b1d1f;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+.facts {
+    padding-top: 48px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.facts-tryzub {
+    margin-bottom: 24px;
+}
+
+.facts-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #1b1d1f;
+    width: 772px;
 }
